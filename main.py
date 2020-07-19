@@ -8,7 +8,7 @@ def downloader(url):
         'listformats': True,
         'download_archive': 'output'
     }).download([url])
-    fm = input('Digite o codigo do melhor formato de audio + melhor formato de video \nExemplo: 137+251\n')
+    fm = input('Digite o codigo do melhor formato de audio + melhor formato de video \nExemplo: 137+258\n')
 
     youtube_dl.YoutubeDL(params={
         'format': fm,
