@@ -1,6 +1,4 @@
 import youtube_dl
-import pyffmpeg
-
 
 def downloader(url):
     url = url.strip()
